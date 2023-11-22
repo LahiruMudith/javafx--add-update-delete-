@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lahiru.java.javafx.test.javafxtest.DeleteController">
+   <children>
+      <Text layoutX="217.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DELETE BOOK">
+         <font>
+            <Font name="Algerian" size="26.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtDeleteBookID" layoutX="52.0" layoutY="82.0" prefHeight="26.0" prefWidth="366.0" promptText="Enter Delete Book ID" />
+      <TextField fx:id="txtName" layoutX="129.0" layoutY="193.0" prefHeight="10.0" prefWidth="342.0" promptText="Book Name" style="-fx-background-color: transparent;" />
+      <TextField fx:id="txtISBM" layoutX="129.0" layoutY="245.0" prefHeight="10.0" prefWidth="342.0" promptText="Book ISBM" style="-fx-background-color: transparent;" />
+      <TextField fx:id="txtQTY" layoutX="129.0" layoutY="278.0" prefHeight="10.0" prefWidth="342.0" promptText="Book QTY" style="-fx-background-color: transparent;" />
+      <TextField fx:id="txtPrice" layoutX="129.0" layoutY="312.0" prefHeight="10.0" prefWidth="342.0" promptText="Book Price" style="-fx-background-color: transparent;" />
+      <Button layoutX="435.0" layoutY="82.0" mnemonicParsing="false" onAction="#search" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #7158e2;" text="Search" textFill="WHITE" />
+      <Button layoutX="183.0" layoutY="356.0" mnemonicParsing="false" onAction="#Delete" prefHeight="29.0" prefWidth="98.0" style="-fx-background-color: #ff3838;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="331.0" layoutY="356.0" mnemonicParsing="false" onAction="#Cancle" prefHeight="29.0" prefWidth="98.0" style="-fx-background-color: #ffaf40;" text="Cancle" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="213.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DELETE BOOK DETAILS" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtID" layoutX="129.0" layoutY="219.0" prefHeight="10.0" prefWidth="342.0" promptText="Book ID" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>
