@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lahiru.java.javafx.test.javafxtest.HomeMenuController">
+   <children>
+      <Text fill="#660909" layoutX="202.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Menu">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="250.0" layoutY="111.0" mnemonicParsing="false" onAction="#AddBook" prefHeight="38.0" prefWidth="99.0" style="-fx-background-color: #bdc3c7;" text="Add Book">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="177.0" mnemonicParsing="false" onAction="#UpdateBook" prefHeight="38.0" prefWidth="99.0" style="-fx-background-color: #bdc3c7;" text="Update Book">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="244.0" mnemonicParsing="false" onAction="#deleteBook" prefHeight="38.0" prefWidth="99.0" style="-fx-background-color: #bdc3c7;" text="Delete Book">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="311.0" mnemonicParsing="false" onAction="#ViewAllBook" prefHeight="38.0" prefWidth="99.0" style="-fx-background-color: #bdc3c7;" text="View All Book">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="486.0" layoutY="360.0" mnemonicParsing="false" onAction="#ReturnLogin" prefHeight="21.0" prefWidth="99.0" style="-fx-background-color: #34495e;" text="Return LogIn" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

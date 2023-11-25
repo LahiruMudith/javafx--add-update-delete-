@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lahiru.java.javafx.test.javafxtest.DeleteController">
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lahiru.java.javafx.test.javafxtest.DeleteController">
    <children>
       <Text layoutX="217.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DELETE BOOK">
          <font>
@@ -36,5 +35,10 @@
          </font>
       </Text>
       <TextField fx:id="txtID" layoutX="129.0" layoutY="219.0" prefHeight="10.0" prefWidth="342.0" promptText="Book ID" style="-fx-background-color: transparent;" />
+      <Button layoutX="522.0" layoutY="371.0" mnemonicParsing="false" onAction="#BackHome" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #7f8c8d;" text="Back Home">
+         <font>
+            <Font name="Arial Narrow Bold" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

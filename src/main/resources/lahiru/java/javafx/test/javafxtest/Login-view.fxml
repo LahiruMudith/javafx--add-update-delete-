@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lahiru.java.javafx.test.javafxtest.LoginController">
+   <children>
+      <Text fill="#077c8c" layoutX="253.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtEmail" layoutX="89.0" layoutY="129.0" prefHeight="31.0" prefWidth="422.0" promptText="Enter Email" />
+      <PasswordField fx:id="txtPassword" layoutX="88.0" layoutY="173.0" prefHeight="31.0" prefWidth="422.0" promptText="Enter Password" />
+      <Button layoutX="259.0" layoutY="231.0" mnemonicParsing="false" onAction="#Login" prefHeight="31.0" prefWidth="82.0" style="-fx-background-color: #3498db;" text="Log In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="195.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Made In Sri Lanka By Lahiru Mudith">
+         <font>
+            <Font name="Arial Narrow" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
