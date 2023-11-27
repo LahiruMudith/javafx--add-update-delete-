@@ -77,7 +77,7 @@ public class HomeMenuController {
             Stage stage = (Stage) this.root.getScene().getWindow();
 
             //scene load
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Home-Menu.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Load-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 600, 400);
             stage.setScene(scene);
 
